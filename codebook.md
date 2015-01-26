@@ -6,14 +6,22 @@ There are 5 steps performed in the run_analysis.R script:
 1.Merges the training and the test sets to create one data set.
 
 After setting the source directory for the files, read into tables the data located in
-•features.txt
-•activity_labels.txt
-•subject_train.txt
-•x_train.txt
-•y_train.txt
-•subject_test.txt
-•x_test.txt
-•y_test.txt
+
+features.txt
+
+activity_labels.txt
+
+subject_train.txt
+
+x_train.txt
+
+y_train.txt
+
+subject_test.txt
+
+x_test.txt
+
+y_test.txt
 
 Assign column names and merge to create one data set.
 
@@ -33,6 +41,7 @@ Use gsub function for pattern replacement to clean up the data labels.
 5.From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
 Per the project instructions, we need to produce only a data set with the average of each veriable for each activity and subject
+
 
 Data Set Information:
 
@@ -55,7 +64,8 @@ For each record in the dataset it is provided:
 
 •An identifier of the subject who carried out the experiment.
 
- Create a tidy data set:
+
+Create a tidy data set:
 
 From the intermediate data set is created a final tidy data set where numeric
  variables are averaged for each activity and each subject.
